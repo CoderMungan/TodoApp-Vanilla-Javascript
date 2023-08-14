@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+input[type=text] {
+    width: 75%;
+    height: 50px;
+    border: none;
+    border-radius: 15px 15px;
+    background-color: lightslategray;
+}
+
+input[type=text]::placeholder {
+    border: none;
+    color: white;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+hr {
+    color: white;
+}
